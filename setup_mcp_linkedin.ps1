@@ -7,6 +7,9 @@ Write-Host "  Setup MCP LinkedIn - MadeinWeb" -ForegroundColor Cyan
 Write-Host "========================================" -ForegroundColor Cyan
 Write-Host ""
 
+# -- 0. Garante execution policy para esta sessao --
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
+
 # -- 1. Verifica se uv esta instalado --
 Write-Host "[1/4] Verificando instalacao do uv..." -ForegroundColor Yellow
 
